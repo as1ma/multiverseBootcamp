@@ -44,6 +44,7 @@ class Passenger{
 class CrewMember{
 
     //add crew member to plane?
+    crewMembersOnPlane = []
     constructor(name,position,staffNumber){
         if (!name){
             throw new Error("must provide name")
@@ -55,6 +56,9 @@ class CrewMember{
         this.name = name
         this.position = position
         this.staffNumber = staffNumber
+    }
+    addCrewToPlane(crew){
+        this.crewMembersOnPlane.push(crew)
     }
 }
 
@@ -75,11 +79,16 @@ class Plane{
 
 class Airport{
     //add planes to airport?
+    plane = []
     constructor(name){
         if (!name){
             throw new Error("must provide airport name")
         }
         this.name = name
+    }
+
+    addPlane(plane){
+        this.plane.push(planes)
     }
 }
 

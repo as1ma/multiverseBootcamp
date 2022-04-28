@@ -1,0 +1,23 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "test-report": "jest --coverage = true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as1ma/multiverseBootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/as1ma/multiverseBootcamp/issues"
+  },
+  "homepage": "https://github.com/as1ma/multiverseBootcamp#readme",
+  "dependencies": {
+    "jest": "^28.0.2"
+  }
+}

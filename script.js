@@ -150,4 +150,7 @@ try{
     //handle error
 }
 
+
+//how to link classes? create instances? output data about planes/passengers/airports?
+
 module.exports = {Bag, Passenger, CrewMember, Plane, Airport}
